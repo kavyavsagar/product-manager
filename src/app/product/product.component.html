@@ -1,0 +1,25 @@
+<h1 class="text-center">{{title}} Product</h1>
+<div class="m20">
+<button mat-icon-button color="primary" routerLink="/"><i class="material-icons">navigate_before</i> Home</button>
+</div>
+
+<form id="productForm" name="productForm" #productData="ngForm" (ngSubmit)="onSubmit(productData.value)">
+<mat-card>
+<!-- <mat-card-title *ngIf="isAdded">{{successMessage}}</mat-card-title>
+ -->
+<mat-card-content>
+<div class="add-container">
+  <input type="hidden" name="id" id="id" [(ngModel)] = "data.id" ngModel>
+  <mat-form-field>
+    <input matInput placeholder="Enter Name" name="pname" id="pname" [(ngModel)] = "data.name" ngModel>
+  </mat-form-field>
+
+  <mat-form-field>
+    <input matInput placeholder="Enter Price (AED)" name="price" id="price" [(ngModel)] = "data.price" ngModel>
+  </mat-form-field>
+
+  <button mat-raised-button color="primary" type="submit">Save Product</button>
+</div>
+</mat-card-content>
+</mat-card>
+</form>

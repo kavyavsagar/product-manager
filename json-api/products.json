@@ -1,0 +1,34 @@
+{
+  "products": [
+    {
+      "id": 1110,
+      "name": "Shirt",
+      "price": "82"
+    },
+    {
+      "id": 1111,
+      "name": "T-shirt",
+      "price": "95"
+    },
+    {
+      "id": 1112,
+      "name": "Hat",
+      "price": "40"
+    },
+    {
+      "name": "Trouser",
+      "price": "60",
+      "id": 1115
+    },
+    {
+      "name": "Kurta",
+      "price": "50",
+      "id": 1116
+    },
+    {
+      "name": "Jacket",
+      "price": "150",
+      "id": 1117
+    }
+  ]
+}
