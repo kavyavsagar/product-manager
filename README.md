@@ -1,26 +1,22 @@
-# ProductManager
+# Product Manager
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.3.
+This project was created to manage products which performs CRUD operations. Its build up with Angular 4, Material Component and Flex Layouts.
+
+Angular Crud operations let us get, update, post and delete any kind data. Iam using http requests to perform all these crud operations. For json data, I will be using json-server to mockup localhost api. 
+
+Angular flex layout provides HTML UI layout for this applications using Flexbox. I have included material components for making the better appearence of application. Components which i used for theming are Data Table, Sorting, Filtering, Snackbar, Modal popup, Toolbar, Form control, Material icons etc.
+
+## Installation
+
+Download the source code from this repo. Seperate `json-api` folder and keep it outside this project.
 
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Code scaffolding
+## API Development server
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+Run `json-server -p 5555 products.json` for a api server. Navigate to `http://localhost:5555/`. 
 
 ## Further help
 
